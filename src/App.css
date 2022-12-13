@@ -131,7 +131,7 @@ span.navbar-text {
 .social-icon a {
   width: 42px;
   height: 42px;
-  background: rgba(217, 217, 217, 0.1);
+  background: white;
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
@@ -139,13 +139,14 @@ span.navbar-text {
   justify-content: center;
   line-height: 1;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  z-index: 1;
 }
 .social-icon a::before {
   content: "";
   width: 42px;
   height: 42px;
   position: absolute;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 50%;
   transform: scale(0);
   transition: 0.3s ease-in-out;
@@ -298,23 +299,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
-  animation: updown 3s linear infinite;
-}
-@keyframes updown {
-  0% {
-    transform: translateY(-20px);
-  }
-  50% {
-    transform: translateY(20px);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-}
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
-}
 
 /************ Skills Css ************/
 .skill {
@@ -405,7 +389,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #0984e3 -5.91%, #4a2fbd 111.58%);
   top: 0;
   left: 0;
   z-index: -1;
@@ -437,7 +421,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #0984e3 -5.91%, #4a2fbd 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -484,7 +468,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #151515 -5.91%, #4a2fbd 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -554,13 +538,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 0;
   transition: 0.3s ease-in-out;
 }
-.contact form button:hover::before {
+xx .contact form button:hover::before {
   width: 100%;
 }
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 10px 0 10px 0;
   background-image: url("./components/assets/img/footer-bg.png");
   background-position: center center;
   background-size: cover;
@@ -590,7 +574,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .new-email-bx::before {
   content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #0984e3 -5.91%, #4a2fbd 111.58%);
   border-radius: 20px;
   position: absolute;
   z-index: -1;
@@ -619,7 +603,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #0984e3 -5.91%, #4a2fbd 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
@@ -635,4 +619,60 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.portfolioLink {
+  color: #fff !important;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h5.projects-title {
+  text-align: center;
+  padding-top: 1em;
+}
+
+h3.projects-title {
+  text-align: center;
+}
+
+img.projects-title {
+  max-width: 10px;
+}
+
+a.projects-title {
+  color: white;
+  text-decoration: none;
+}
+
+a.projects-title :hover {
+  text-decoration: underline;
+}
+
+.projects-img {
+  border-radius: 25px;
+  height: 300px;
 }

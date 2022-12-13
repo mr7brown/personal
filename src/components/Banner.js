@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Tech Writer", "Documentation Engineer", "Web Dev"];
+  const toRotate = ["Tech Writer", "Doc. Engineer", "Web Dev"];
   const period = 1000;
 
   useEffect(() => {
@@ -65,7 +65,7 @@ export const Banner = () => {
                 >
                   {/* <span className="tagline">Welcome to my Portfolio</span> */}
                   <h1>
-                    {`Hi! I'm Ash |`}{" "}
+                    {`Hi! I'm Ashton |`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
@@ -74,13 +74,13 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p>
+                  {/* <p>
                     For the past decade, I've help write, edit, develop, and
                     engineer technical documentation for some of the most
                     recognizeable companies on the planet...from Robotic Process
                     Automation, API docs, and SDKs to Audio/Video specs and
                     original research. And everything in-between.
-                  </p>
+                  </p> */}
                   {/* <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button> */}

@@ -35,31 +35,36 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>
+              <br />
+              {/* <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.<br></br> Lorem Ipsum has been the industry's standard
                 dummy text.
-              </p>
+              </p> */}
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={meter1} alt="95%" />
+                  <h4>Docs-as-code</h4>
+                  <h5>(HTML | CSS |Markdown |Git)</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <img src={meter2} alt="80%" />
+                  <h4>Web Development</h4>
+                  <h5>(JS | GatsbyJS |React | CICD)</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <img src={meter3} alt="90%" />
+                  <h4>Other Tech Proficiencies</h4>
+                  <h5>(Bash | Linux | NPM | API docs)</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={meter1} alt="95" />
+                  <h4>Content Development</h4>
+                  <h5>(UI/UX design | Flesch-Kincaid)</h5>
                 </div>
               </Carousel>
             </div>
