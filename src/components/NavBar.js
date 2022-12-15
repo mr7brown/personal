@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "./assets/img/logo.svg";
 // import navIcon1 from "./assets/img/nav-icon1.svg";
 // import navIcon2 from "./assets/img/nav-icon2.svg";
-// import navIcon3 from "./assets/img/nav-icon3.svg";
+import navIcon3 from "./assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -86,7 +86,7 @@ export const NavBar = () => {
                   <FaGithubAlt />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/ashton-brown-mba-6000238a/"
+                  href="https://drive.google.com/file/d/1rJh7uR9BsJaohuj4lEarO_BP_x_gKSak/view?usp=sharing"
                   target="_blank"
                 >
                   <FaFilePdf />

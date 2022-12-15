@@ -4,6 +4,10 @@ import projImg1 from "./assets/img/project-img1.png";
 import amazon1 from "./assets/img/amazon1.png";
 import amazon2 from "./assets/img/amazon2.png";
 import amazon3 from "./assets/img/amazon3.png";
+import amz1 from "./assets/img/amz1.jpeg";
+import amz2 from "./assets/img/amz2.jpeg";
+import sp1 from "./assets/img/sp1.jpeg";
+import amzrb from "./assets/img/amzrb.jpeg";
 import aic4 from "./assets/img/aic4.jpg";
 import GitLab from "./assets/img/gitlab.jpeg";
 import google from "./assets/img/google.jpeg";
@@ -72,7 +76,7 @@ export const Projects = () => {
                     original research. And everything in-between.
                   </p>
                   <p>
-                    Here is a small sample of content I've published within the
+                    Here is a small sample of content I've produced within the
                     past few years.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -101,7 +105,7 @@ export const Projects = () => {
                         <Row>
                           <Col>
                             <div>
-                              <img className="projects-img" src={amazon1} />
+                              <img className="projects-img" src={amzrb} />
                               <a
                                 target="_blank"
                                 className="projects-title"
@@ -157,6 +161,68 @@ export const Projects = () => {
                             </div>
                           </Col>
                         </Row>
+                        <br />
+                        <br />
+                        {/* <Row>
+                          <Col>
+                            <div>
+                              <img className="projects-img" src={sp1} />
+                              <a
+                                target="_blank"
+                                className="projects-title"
+                                href="https://advertising.amazon.com/en-us/library/research/sponsored-products-campaigns-apparel-sellers/?ref_=a20m_us_libr"
+                              >
+                                <div>
+                                  <h5 className="projects-title">
+                                    (Amazon Ads)
+                                  </h5>
+                                  <h3 className="projects-title">
+                                    Why Sponsored Products may be right for you
+                                  </h3>
+                                </div>
+                              </a>
+                            </div>
+                          </Col>
+                          <Col>
+                            <div>
+                              <img className="projects-img" src={amz2} />
+                              <a
+                                target="_blank"
+                                className="projects-title"
+                                href="https://advertising.amazon.com/en-us/library/research/messages-that-matter/?ref_=a20m_us_libr"
+                              >
+                                <div>
+                                  <h5 className="projects-title">
+                                    (Amazon Ads)
+                                  </h5>
+                                  <h3 className="projects-title">
+                                    A little bit art. A little bit science.
+                                  </h3>
+                                </div>
+                              </a>
+                            </div>
+                          </Col>
+                          <Col>
+                            <div>
+                              <img className="projects-img" src={amazon1} />
+                              <a
+                                target="_blank"
+                                className="projects-title"
+                                href="https://advertising.amazon.com/en-us/library/research/sponsored-display-help-improve-campaign-performance/?ref_=a20m_us_libr"
+                              >
+                                <div>
+                                  <h5 className="projects-title">
+                                    (Amazon Ads)
+                                  </h5>
+                                  <h3 className="projects-title">
+                                    Campaigns that use Sponsored Display perform
+                                    better
+                                  </h3>
+                                </div>
+                              </a>
+                            </div>
+                          </Col>
+                        </Row> */}
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <Row>

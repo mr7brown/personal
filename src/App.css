@@ -142,7 +142,7 @@ span.navbar-text {
   z-index: 1;
 }
 .social-icon a::before {
-  content: "";
+  /* content: ""; */
   width: 42px;
   height: 42px;
   position: absolute;
@@ -154,9 +154,10 @@ span.navbar-text {
 .social-icon a:hover::before {
   transform: scale(1);
 }
+
 .social-icon a img {
   width: 40%;
-  z-index: 1;
+  z-index: 0;
   transition: 0.3s ease-in-out;
 }
 .social-icon a:hover img {
@@ -525,7 +526,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .contact form button:hover {
-  color: #fff;
+  color: #0984e3;
 }
 .contact form button::before {
   content: "";
@@ -675,4 +676,18 @@ a.projects-title :hover {
 .projects-img {
   border-radius: 25px;
   height: 300px;
+}
+
+/* Media queries for Projects section */
+
+@media only screen and (max-width: 800px) {
+  .projects-img {
+    max-height: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projects-img {
+    max-height: 100px;
+  }
 }

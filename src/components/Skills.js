@@ -3,8 +3,6 @@ import meter2 from "./assets/img/meter2.svg";
 import meter3 from "./assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "./assets/img/arrow1.svg";
-import arrow2 from "./assets/img/arrow2.svg";
 import colorSharp from "./assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -49,12 +47,12 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter1} alt="95%" />
                   <h4>Docs-as-code</h4>
-                  <h5>(HTML | CSS |Markdown |Git)</h5>
+                  <h5>(HTML | CSS | Markdown |Git)</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="80%" />
                   <h4>Web Development</h4>
-                  <h5>(JS | GatsbyJS |React | CICD)</h5>
+                  <h5>(JS | GatsbyJS | React | CICD)</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="90%" />
@@ -71,7 +69,11 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img
+        className="background-image-left"
+        src={colorSharp}
+        alt="background"
+      />
     </section>
   );
 };
