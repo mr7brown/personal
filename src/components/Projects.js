@@ -1,12 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 // import { ProjectCard } from "./ProjectCard";
 import projImg1 from "./assets/img/project-img1.png";
-import amazon1 from "./assets/img/amazon1.png";
+// import amazon1 from "./assets/img/amazon1.png";
 import amazon2 from "./assets/img/amazon2.png";
 import amazon3 from "./assets/img/amazon3.png";
-import amz1 from "./assets/img/amz1.jpeg";
-import amz2 from "./assets/img/amz2.jpeg";
-import sp1 from "./assets/img/sp1.jpeg";
+// import amz1 from "./assets/img/amz1.jpeg";
+// import amz2 from "./assets/img/amz2.jpeg";
+// import sp1 from "./assets/img/sp1.jpeg";
 import amzrb from "./assets/img/amzrb.jpeg";
 import aic4 from "./assets/img/aic4.jpg";
 import GitLab from "./assets/img/gitlab.jpeg";
@@ -19,7 +19,7 @@ import projImg3 from "./assets/img/project-img3.png";
 import colorSharp2 from "./assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import { FaExternalLinkAlt } from "react-icons/fa";
+// import { FaExternalLinkAlt } from "react-icons/fa";
 
 export const Projects = () => {
   const projects = [
@@ -161,8 +161,7 @@ export const Projects = () => {
                             </div>
                           </Col>
                         </Row>
-                        <br />
-                        <br />
+
                         {/* <Row>
                           <Col>
                             <div>

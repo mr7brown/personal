@@ -247,7 +247,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 160px 0 50px 0;
   background-image: url("./components/assets/img/banner-bg.png");
   background-position: top center;
   background-size: cover;
@@ -677,6 +677,10 @@ a.projects-title :hover {
   border-radius: 25px;
   height: 300px;
 }
+
+/* .projects-img :hover {
+  content: "test";
+} */
 
 /* Media queries for Projects section */
 
