@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.840eb965.css",
-    "main.js": "/personal/static/js/main.ae7e488c.js",
+    "main.css": "/personal/static/css/main.a2dcde3a.css",
+    "main.js": "/personal/static/js/main.b8d4e599.js",
     "static/js/787.1ed0c42c.chunk.js": "/personal/static/js/787.1ed0c42c.chunk.js",
     "static/media/hbo2.jpeg": "/personal/static/media/hbo2.c469bdca40d6abee26bb.jpeg",
     "static/media/color-sharp.png": "/personal/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -11,8 +11,6 @@
     "static/media/hbo3.jpeg": "/personal/static/media/hbo3.61b8b2c3a1d116c009aa.jpeg",
     "static/media/header-img.svg": "/personal/static/media/header-img.60a5e8fadaea4c5c76e92473a33604ab.svg",
     "static/media/gitlab.jpeg": "/personal/static/media/gitlab.c3e732ba473ccbbba55b.jpeg",
-    "static/media/sp1.jpeg": "/personal/static/media/sp1.ab1da8037292091f8506.jpeg",
-    "static/media/amz1.jpeg": "/personal/static/media/amz1.688143fc35d544ec027f.jpeg",
     "static/media/CentraNo2-Bold.ttf": "/personal/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/personal/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/personal/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -26,9 +24,7 @@
     "static/media/amazon3.png": "/personal/static/media/amazon3.b1ec0676fb576034e682.png",
     "static/media/amzrb.jpeg": "/personal/static/media/amzrb.07a65bd068092a722717.jpeg",
     "static/media/logo.svg": "/personal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/amz2.jpeg": "/personal/static/media/amz2.69094e0168330a8bca2e.jpeg",
     "static/media/aic4.jpg": "/personal/static/media/aic4.aef3d1f1047d45f621d5.jpg",
-    "static/media/amazon1.png": "/personal/static/media/amazon1.1d72f25b258fd2a66507.png",
     "static/media/revicons.eot": "/personal/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/personal/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/personal/static/media/revicons.e8746a624ed098489406.woff",
@@ -37,12 +33,12 @@
     "static/media/meter3.svg": "/personal/static/media/meter3.0aa8740fe94f1c9eefba91d5f1942e05.svg",
     "static/media/nav-icon3.svg": "/personal/static/media/nav-icon3.c116e038cd81ea1df2f6f47348c5bfa8.svg",
     "index.html": "/personal/index.html",
-    "main.840eb965.css.map": "/personal/static/css/main.840eb965.css.map",
-    "main.ae7e488c.js.map": "/personal/static/js/main.ae7e488c.js.map",
+    "main.a2dcde3a.css.map": "/personal/static/css/main.a2dcde3a.css.map",
+    "main.b8d4e599.js.map": "/personal/static/js/main.b8d4e599.js.map",
     "787.1ed0c42c.chunk.js.map": "/personal/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.840eb965.css",
-    "static/js/main.ae7e488c.js"
+    "static/css/main.a2dcde3a.css",
+    "static/js/main.b8d4e599.js"
   ]
 }
