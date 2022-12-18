@@ -97,6 +97,7 @@ export const NavBar = () => {
                   <span>Let’s Connect</span>
                 </button>
               </HashLink>
+              {/* <br /> */}
             </span>
           </Navbar.Collapse>
         </Container>
