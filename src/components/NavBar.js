@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithubAlt } from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -91,12 +92,28 @@ export const NavBar = () => {
                 >
                   <FaFilePdf />
                 </a>
+                <a href="mailto:ashtonbrownmba@gmail.com" target="_blank">
+                  <FaRegEnvelope />
+                </a>
               </div>
-              <HashLink to="#connect">
-                <button className="vvd">
-                  <span>Let’s Connect</span>
-                </button>
-              </HashLink>
+              {/* <Nav>
+                <Nav.Link
+                  href="mailto:ashtonbrownmba@gmail.com"
+                  className={
+                    activeLink === "skills"
+                      ? "active navbar-link"
+                      : "navbar-link"
+                  }
+                  onClick={() => onUpdateActiveLink("skills")}
+                >
+                  Connect
+                </Nav.Link>
+              </Nav> */}
+              {/* <HashLink to="#connect">
+                  <button className="vvd">
+                    <span>Let’s Connect</span>
+                  </button>
+                </HashLink> */}
               {/* <br /> */}
             </span>
           </Navbar.Collapse>
