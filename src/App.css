@@ -690,6 +690,13 @@ a.projects-title :hover {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .banner-img {
+    max-height: 200px;
+    padding-bottom: 1em;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .projects-img {
     max-height: 100px;
