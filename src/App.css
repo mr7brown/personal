@@ -695,10 +695,3 @@ a.projects-title :hover {
     max-height: 100px;
   }
 }
-
-@media only screen and (max-width: 800px) {
-  .test {
-    max-height: 200px;
-    margin-bottom: 1em;
-  }
-}

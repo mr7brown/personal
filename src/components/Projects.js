@@ -105,7 +105,12 @@ export const Projects = () => {
                         <Row>
                           <Col>
                             <div>
-                              <img className="projects-img" src={amzrb} />
+                              <a
+                                target="_blank"
+                                href="https://advertising.amazon.com/en-us/library/research/multichannel-investments-help-sales-and-growth/?ref_=a20m_us_libr"
+                              >
+                                <img className="projects-img" src={amzrb} />
+                              </a>
                               <a
                                 target="_blank"
                                 className="projects-title"
@@ -124,7 +129,12 @@ export const Projects = () => {
                           </Col>
                           <Col>
                             <div>
-                              <img className="projects-img" src={amazon2} />
+                              <a
+                                target="_blank"
+                                href="https://advertising.amazon.com/en-us/library/research/prime-day-ad-strategies-used-by-top-performers/?ref_=a20m_us_libr"
+                              >
+                                <img className="projects-img" src={amazon2} />
+                              </a>
                               <a
                                 target="_blank"
                                 className="projects-title"
@@ -143,7 +153,12 @@ export const Projects = () => {
                           </Col>
                           <Col>
                             <div>
-                              <img className="projects-img" src={amazon3} />
+                              <a
+                                target="_blank"
+                                href="https://advertising.amazon.com/en-us/library/research/coffee-marketing/?ref_=a20m_us_libr"
+                              >
+                                <img className="projects-img" src={amazon3} />
+                              </a>
                               <a
                                 target="_blank"
                                 className="projects-title"
@@ -227,7 +242,12 @@ export const Projects = () => {
                         <Row>
                           <Col>
                             <div>
-                              <img className="projects-img" src={aic4} />
+                              <a
+                                target="_blank"
+                                href="https://partnerhub.warnermedia.com/metadata/automated-content-delivery/technical-metadata"
+                              >
+                                <img className="projects-img" src={aic4} />
+                              </a>
                               <a
                                 target="_blank"
                                 className="projects-title"
@@ -244,7 +264,12 @@ export const Projects = () => {
                           </Col>
                           <Col>
                             <div>
-                              <img className="projects-img" src={GitLab} />
+                              <a
+                                target="_blank"
+                                href="https://ashtongbrown.com/gitlab.html"
+                              >
+                                <img className="projects-img" src={GitLab} />
+                              </a>
                               <a
                                 target="_blank"
                                 className="projects-title"
@@ -261,7 +286,12 @@ export const Projects = () => {
                           </Col>
                           <Col>
                             <div>
-                              <img className="projects-img" src={google} />
+                              <a
+                                target="_blank"
+                                href="https://ashtongbrown.com/google-rpi3.html"
+                              >
+                                <img className="projects-img" src={google} />
+                              </a>
                               <a
                                 target="_blank"
                                 className="projects-title"
@@ -282,7 +312,12 @@ export const Projects = () => {
                         <Row>
                           <Col>
                             <div>
-                              <img className="projects-img" src={hbo1} />
+                              <a
+                                target="_blank"
+                                href="https://partnerhub.warnermedia.com/specifications-and-guides/originals/originals-hdr"
+                              >
+                                <img className="projects-img" src={hbo1} />
+                              </a>
                               <a
                                 target="_blank"
                                 className="projects-title"
@@ -299,7 +334,12 @@ export const Projects = () => {
                           </Col>
                           <Col>
                             <div>
-                              <img className="projects-img" src={hbo3} />
+                              <a
+                                target="_blank"
+                                href="https://partnerhub.warnermedia.com/specifications-and-guides/promotionals"
+                              >
+                                <img className="projects-img" src={hbo3} />
+                              </a>
                               <a
                                 target="_blank"
                                 className="projects-title"
@@ -316,7 +356,12 @@ export const Projects = () => {
                           </Col>
                           <Col>
                             <div>
-                              <img className="projects-img" src={hbo2} />
+                              <a
+                                target="_blank"
+                                href="https://partnerhub.warnermedia.com/specifications-and-guides/licensed/licensed-content-sdr"
+                              >
+                                <img className="projects-img" src={hbo2} />
+                              </a>
                               <a
                                 target="_blank"
                                 className="projects-title"
