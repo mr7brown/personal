@@ -234,9 +234,7 @@ export const Projects = () => {
                                 href="https://partnerhub.warnermedia.com/metadata/automated-content-delivery/technical-metadata"
                               >
                                 <div>
-                                  <h5 className="projects-title">
-                                    (HBO/WarnerMedia)
-                                  </h5>
+                                  <h5 className="projects-title">(HBO)</h5>
                                   <h3 className="projects-title">
                                     MMC Technical Metadata
                                   </h3>
@@ -253,9 +251,7 @@ export const Projects = () => {
                                 href="https://ashtongbrown.com/gitlab.html"
                               >
                                 <div>
-                                  <h5 className="projects-title">
-                                    (HBO/WarnerMedia)
-                                  </h5>
+                                  <h5 className="projects-title">(HBO)</h5>
                                   <h3 className="projects-title">
                                     GitLab Setup
                                   </h3>
@@ -293,9 +289,7 @@ export const Projects = () => {
                                 href="https://partnerhub.warnermedia.com/specifications-and-guides/originals/originals-hdr"
                               >
                                 <div>
-                                  <h5 className="projects-title">
-                                    (HBO/WarnerMedia)
-                                  </h5>
+                                  <h5 className="projects-title">(HBO)</h5>
                                   <h3 className="projects-title">
                                     HDR Specification
                                   </h3>
@@ -312,9 +306,7 @@ export const Projects = () => {
                                 href="https://partnerhub.warnermedia.com/specifications-and-guides/promotionals"
                               >
                                 <div>
-                                  <h5 className="projects-title">
-                                    (HBO/WarnerMedia)
-                                  </h5>
+                                  <h5 className="projects-title">(HBO)</h5>
                                   <h3 className="projects-title">
                                     Promotional Content
                                   </h3>
@@ -331,9 +323,7 @@ export const Projects = () => {
                                 href="https://partnerhub.warnermedia.com/specifications-and-guides/licensed/licensed-content-sdr"
                               >
                                 <div>
-                                  <h5 className="projects-title">
-                                    (HBO/WarnerMedia)
-                                  </h5>
+                                  <h5 className="projects-title">(HBO)</h5>
                                   <h3 className="projects-title">
                                     SDR Specification
                                   </h3>

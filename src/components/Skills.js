@@ -51,17 +51,17 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="80%" />
-                  <h4>Web Development</h4>
+                  <h4>Development</h4>
                   <h5>(JS | GatsbyJS | React | CICD)</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="90%" />
-                  <h4>Other Tech Proficiencies</h4>
+                  <h4>General Tech</h4>
                   <h5>(Bash | Linux | NPM | API docs)</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="95" />
-                  <h4>Content Development</h4>
+                  <h4>Content</h4>
                   <h5>(UI/UX design | Flesch-Kincaid)</h5>
                 </div>
               </Carousel>
