@@ -47,7 +47,7 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter1} alt="95%" />
                   <h4>Docs-as-code</h4>
-                  <h5>(HTML | CSS | Markdown |Git)</h5>
+                  <h5>(HTML | CSS | Markdown | Git)</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="80%" />
